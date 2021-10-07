@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "guias",
+  "info": {
+    "name": "guias"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "status": {
+      "type": "boolean"
+    }
+  }
+}

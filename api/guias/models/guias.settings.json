@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "guias",
+  "info": {
+    "name": "Guias",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "thumbnail": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "assets": {
+      "type": "json"
+    },
+    "calltoaction": {
+      "type": "string"
+    },
+    "calltoactionposition": {
+      "type": "integer"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    }
+  }
+}

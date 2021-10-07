@@ -1,0 +1,16 @@
+{
+  "kind": "singleType",
+  "collectionName": "tipo1_s",
+  "info": {
+    "name": "tipo1"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    }
+  }
+}

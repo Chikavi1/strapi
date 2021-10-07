@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tipo-1",
+      "handler": "tipo1.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tipo-1",
+      "handler": "tipo1.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tipo-1",
+      "handler": "tipo1.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
